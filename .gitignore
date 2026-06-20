@@ -1,0 +1,29 @@
+
+OS / editor
+
+.DS_Store
+Thumbs.db
+.vscode/
+
+Logs
+
+*.log
+
+Environment files
+
+.env
+.env.*
+
+Temporary files
+
+tmp/
+temp/
+
+Node / framework leftovers - should not be needed for this static landing
+
+node_modules/
+.next/
+.astro/
+dist/
+out/
+.vercel/
