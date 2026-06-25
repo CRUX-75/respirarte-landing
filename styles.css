@@ -735,3 +735,10 @@ h3 {
     height: 44px;
   }
 }
+
+/* Navbar polish: white background to blend with logo image */
+.site-header,
+.header,
+.navbar {
+  background: #ffffff;
+}
