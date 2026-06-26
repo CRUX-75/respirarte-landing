@@ -45,8 +45,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(251, 247, 241, 0.92);
-  backdrop-filter: blur(16px);
+  background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
 
@@ -64,8 +63,8 @@ a {
 }
 
 .brand-logo {
-  width: 136px;
-  max-height: 54px;
+  width: 170px;
+  max-height: 62px;
   object-fit: contain;
 }
 
@@ -538,8 +537,8 @@ h3 {
   }
 
   .brand-logo {
-    width: 128px;
-    max-height: 50px;
+    width: 145px;
+    max-height: 54px;
   }
 
   .menu-button {
@@ -667,8 +666,8 @@ h3 {
   }
 
   .brand-logo {
-    width: 122px;
-    max-height: 46px;
+    width: 136px;
+    max-height: 50px;
   }
 
   .hero {
@@ -741,4 +740,23 @@ h3 {
 .header,
 .navbar {
   background: #ffffff;
+}
+
+/* Final navbar surface alignment */
+.site-header {
+  background: var(--bg);
+}
+
+.header-inner {
+  background: var(--bg);
+}
+
+/* Final header beige surface */
+.site-header,
+.site-header .header-inner {
+  background-color: #fbf7f1 !important;
+}
+
+.site-header {
+  backdrop-filter: none !important;
 }
